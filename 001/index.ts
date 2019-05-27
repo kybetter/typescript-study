@@ -1,6 +1,6 @@
-function add(x: number, y: number): number {
-    const res: number = x + y;
-    return res;
-}
+import add from './add';
 
-export default add;
+console.log(add(3, 4));
+
+console.log(add(7, 7));
+console.log(add(7, 7));
