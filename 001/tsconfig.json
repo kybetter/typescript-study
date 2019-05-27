@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5", /* target用于指定编译之后的版本目标 version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */
+    "module": "ESNext", /* 用来指定要使用的模块标准: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+    "declaration": true,  /* 生成相应的 '.d.ts' file. */
+    "outDir": "./lib", /* 指定编译输出目录 */
+    "esModuleInterop": true, /* 通过为导入内容创建命名空间，实现CommonJS和ES模块之间的互操作性 */
+    "experimentalDecorators": true, /* 启用 ES7 装饰器语法 */
+  }
+}
